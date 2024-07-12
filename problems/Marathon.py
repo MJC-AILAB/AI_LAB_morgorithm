@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-def solution(participant, completion):
-
-
-# 테스트용 예제 실행
-if __name__ == "__main__":
-    print(solution(["leo", "kiki", "eden"], ["eden", "kiki"]))  # "leo"
-    print(solution(["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"]))  # "vinko"
-    print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))  # "mislav"
-=======
 # 문제 설명
 # 수많은 마라톤 선수들이 마라톤에 참여하였습니다. 단 한 명의 선수를 제외하고는 모든 선수가 마라톤을 완주하였습니다.
 
@@ -36,4 +26,9 @@ if __name__ == "__main__":
 def solution(participant, completion):
     answer = []
     return answer
->>>>>>> 973174d (test setting)
+
+# 테스트용 예제 실행
+if __name__ == "__main__":
+    print(solution(["leo", "kiki", "eden"], ["eden", "kiki"]))  # "leo"
+    print(solution(["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"]))  # "vinko"
+    print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))  # "mislav"

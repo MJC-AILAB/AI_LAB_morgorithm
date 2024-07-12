@@ -1,13 +1,6 @@
 import sys
 import os
 import unittest
-<<<<<<< HEAD
-=======
-print("Current directory:", os.getcwd())
-print("File directory:", os.path.dirname(__file__))
-print("sys.path:", sys.path)
-print("+++++++++++++")
->>>>>>> 973174d (test setting)
 
 # sys.path 설정
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'problems')))
